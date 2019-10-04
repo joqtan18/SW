@@ -118,13 +118,13 @@
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
-        <a class="nav-link" href="">
+        <a class="nav-link" href="{{url('documento')}}">
           <i class="fas fa-fw fa-table"></i>
           <span>NUEVO </span></a>
       </li>
 
       <!-- Divider -->
-      <hr class="sidebar-divider d-none d-md-block">
+
 
 
         <!-- /.container-fluid -->
@@ -138,7 +138,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Direccion Regional de Educacion del Callao 2019 </span>
+            <span>Copyright © 2019 DREC. All rights reserved. </span>
           </div>
         </div>
       </footer>
