@@ -39,7 +39,7 @@
 
                 <!-- Nav Item - Dashboard -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('home')}}">
+                    <a class="nav-link" href="{{url('')}}">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
                     <span>Inicio</span></a>
                 </li>
@@ -48,12 +48,12 @@
                 <li class="nav-item">
                   <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fas fa-fw fa-tools"></i>
-                    <span>Mantenimiento</span>
+                    <span>Registro de Documentos</span>
                   </a>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
-                      <a class="collapse-item" href="{{url('cliente')}}">Clientes</a>
-                      <a class="collapse-item" href="{{url('producto')}}">Productos</a>
+                      <a class="collapse-item" href="{{url('documento')}}">Documentos</a>
+                      
                     </div>
                   </div>
                 </li>
@@ -63,9 +63,9 @@
 
                 <!-- Nav Item - Charts -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('ventas')}}">
+                    <a class="nav-link" href="{{url('')}}">
                     <i class="fas fa-fw fa-money-bill-alt"></i>
-                    <span>Ventas</span></a>
+                    <span>Estado de Tramite</span></a>
                 </li>
 
                 <!-- Divider -->
@@ -73,7 +73,7 @@
 
                 <!-- Nav Item - Charts -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('reportes')}}">
+                    <a class="nav-link" href="{{url('')}}">
                     <i class="fas fa-fw fa-file-pdf"></i>
                     <span>Reportes</span></a>
                 </li>
@@ -82,9 +82,9 @@
 
                 <!-- Nav Item - Charts -->
                 <li class="nav-item">
-                    <a class="nav-link" href="{{url('stock')}}">
+                    <a class="nav-link" href="{{url('')}}">
                     <i class="fas fa-fw fa-book"></i>
-                    <span>Stock</span></a>
+                    <span>Empleados</span></a>
                 </li>
 
                 <!-- Divider -->
@@ -146,7 +146,7 @@
                 <footer class="sticky-footer bg-white">
                     <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; <a href="https://innovasystec.com" target="_blank">Innovasystec</a> 2019</span>
+                        <span>Copyright &copy; <a href="http://www.drec.gob.pe" target="_blank">Direccion Regional de Educacion del Callao</a> 2019</span>
                     </div>
                     </div>
                 </footer>
