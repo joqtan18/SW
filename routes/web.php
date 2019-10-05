@@ -15,4 +15,20 @@ Route::get('/', function () {
     return view('plantilla.plantilla');
 });
 
-Route::resource('documento','DocumentoController');
+Route::resource('cliente','ClienteController');
+Route::resource('producto','ProductoController');
+Route::resource('ventas','VentaController');
+Route::resource('stock','StockController');
+Route::resource('reportes','ReportesController');
+
+
+//Ruta para cambiar visibilidad
+Route::get('visibilidad/{id}','ProductoController@visibilidad');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+Route::get('cliente-list-pdf','ClienteController@exportPdf')->name('cliente.pdf');
+Route::get('producto-list-pdf','ProductoController@exportPdf')->name('producto.pdf');
+Route::get('stock-list-pdf','StockController@exportPdf')->name('stock.pdf');
+Route::get('venta-list-pdf','VentaController@exportPdf')->name('venta.pdf');
